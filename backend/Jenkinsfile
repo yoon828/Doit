@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    tools {
+        gradle 'gradle'
+    }
+    stages {
+        stage('Git Clone') {
+            steps {
+                git branch: 'backend', url: 'https://github.com/yoon828/Doit.git'
+            }
+        }
+        stage('BE-Build') {
+            steps {
+                dir("./backend") {
+                    sh "./gradlew clean build"
+                }
+            }
+        }
+    }
+}
