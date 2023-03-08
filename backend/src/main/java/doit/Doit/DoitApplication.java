@@ -8,7 +8,7 @@ public class DoitApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("test");
+		System.out.println("testaaaaaaaa");
 		SpringApplication.run(DoitApplication.class, args);
 	}
 
