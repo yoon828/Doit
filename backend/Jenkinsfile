@@ -12,6 +12,7 @@ pipeline {
           success {
             echo "prepare stage success"
             echo pwd
+            echo ls
           }
           failure {
             echo "prepare stage failed"
