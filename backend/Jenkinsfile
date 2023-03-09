@@ -12,35 +12,33 @@ pipeline {
           success {
             echo "prepare stage success"
             echo pwd
-            echo ls
           }
           failure {
             echo "prepare stage failed"
           }
         }
     }
-//     stage('Backend Build') {
-//       steps {
-//         dir('discoveryservice') {
-//             echo "here is discovery-service"
-//             sh 'docker stop discovery-service || true && docker rm discovery-service ||
-// true && docker rmi discovery-image || true' // .
-//             sh 'gradle clean build -x test -b build.gradle' // .
-//             sh 'docker build -t discovery-image .'
-//         }
-//       }
-//       post {
-//         always {
-//             echo "build stage complete"
-//         }
-//         failure {
-//             echo "build failed"
-//         }
-//         success {
-//             echo "build success"
-//         }
-//       }
-//     }
+    stage('Backend Build') {
+      steps {
+        dir('./backend') {
+            echo "here is backend"
+            sh 'docker stop backend || true && docker rm backend || true && docker rmi backend || true'
+            sh 'gradle clean build -x test -b build.gradle' // .
+            sh 'docker build -t backend .'
+        }
+      }
+      post {
+        always {
+            echo "build stage complete"
+        }
+        failure {
+            echo "build failed"
+        }
+        success {
+            echo "build success"
+        }
+      }
+    }
 //     stage('Deploy') {
 //       steps {
 //         echo "deploy start"
