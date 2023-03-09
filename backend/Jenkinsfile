@@ -10,7 +10,8 @@ pipeline {
         }
         post {
           success {
-            echo " prepare stage success"
+            echo "prepare stage success"
+            pwd
           }
           failure {
             echo "prepare stage failed"
