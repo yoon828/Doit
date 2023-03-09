@@ -1,0 +1,63 @@
+pipeline {
+    agent any
+  tools {
+    gradle 'gradle'
+  }
+  stages {
+    stage('Prepare') {
+      steps {
+        checkout scm
+        }
+        post {
+          success {
+            echo " prepare stage success"
+          }
+          failure {
+            echo "prepare stage failed"
+          }
+        }
+    }
+//     stage('Backend Build') {
+//       steps {
+//         dir('discoveryservice') {
+//             echo "here is discovery-service"
+//             sh 'docker stop discovery-service || true && docker rm discovery-service ||
+// true && docker rmi discovery-image || true' // .
+//             sh 'gradle clean build -x test -b build.gradle' // .
+//             sh 'docker build -t discovery-image .'
+//         }
+//       }
+//       post {
+//         always {
+//             echo "build stage complete"
+//         }
+//         failure {
+//             echo "build failed"
+//         }
+//         success {
+//             echo "build success"
+//         }
+//       }
+//     }
+//     stage('Deploy') {
+//       steps {
+//         echo "deploy start"
+//         // docker-compose.yml
+//         sh 'cd /'
+//         // docker-compose
+//         sh 'docker-compose up -d'
+//       }
+//       post {
+//         always {
+//           echo "deploy stage complete"
+//         }
+//         failure {
+//           echo "deploy failed"
+//         }
+//         success {
+//           echo "deploy success"
+//         }
+//       }
+//     }
+  }
+}
