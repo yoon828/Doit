@@ -23,9 +23,10 @@ pipeline {
         dir('./backend') {
             echo "here is backend"
             sh 'docker stop backend || true && docker rm backend || true && docker rmi backend || true'
-            sh 'gradle clean build -x test -b build.gradle'
             sh 'docker build -t backend .'
-            sh 'docker ps'
+            sh 'docker run -it -d --rm -p 8080:8080 --name backend backend'
+            sh 'docker rmi -f $(docker images -f "dangling=true" -q) || true'
+            echo "Run backend"
         }
       }
       post {
@@ -37,26 +38,6 @@ pipeline {
         }
         success {
             echo "build success"
-        }
-      }
-    }
-    stage('Deploy') {
-      steps {
-        echo "deploy start"
-        // docker-compose.yml
-        sh 'cd /'
-        // docker-compose
-        sh 'docker-compose up -d'
-      }
-      post {
-        always {
-            echo "deploy stage complete"
-        }
-        failure {
-            echo "deploy failed"
-        }
-        success {
-            echo "deploy success"
         }
       }
     }
