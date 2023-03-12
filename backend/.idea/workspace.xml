@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24f2b172-8e20-4efb-87ba-cf925ae65250" name="Changes" comment="Jenkinsfile test">
+    <list default="true" id="24f2b172-8e20-4efb-87ba-cf925ae65250" name="Changes" comment="Dockerfile test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/DoitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/DoitApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/doit/Doit/DoitApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/doit/Doit/DoitApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/api/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/api/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -125,7 +132,7 @@
       <workItem from="1677854619040" duration="2510000" />
       <workItem from="1678013682191" duration="10973000" />
       <workItem from="1678175712830" duration="964000" />
-      <workItem from="1678177246417" duration="4694000" />
+      <workItem from="1678177246417" duration="9624000" />
     </task>
     <task id="LOCAL-00001" summary="AWS DB connect">
       <created>1678017370461</created>
@@ -197,7 +204,70 @@
       <option name="project" value="LOCAL" />
       <updated>1678289806873</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Jenkinsfile test">
+      <created>1678354869565</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678354869565</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Jenkinsfile test">
+      <created>1678358019466</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678358019466</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Jenkinsfile test">
+      <created>1678358245893</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678358245894</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Jenkinsfile test">
+      <created>1678358287803</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678358287803</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Jenkinsfile test">
+      <created>1678358340721</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678358340721</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Jenkinsfile test">
+      <created>1678358512807</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678358512807</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Dockerfile test">
+      <created>1678600607599</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678600607599</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Jenkinsfile test">
+      <created>1678600886295</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678600886295</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Dockerfile test">
+      <created>1678601954541</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678601954541</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +291,7 @@
     <MESSAGE value="dockerfile add" />
     <MESSAGE value="Jenkinsfile add" />
     <MESSAGE value="Jenkinsfile test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkinsfile test" />
+    <MESSAGE value="Dockerfile test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile test" />
   </component>
 </project>

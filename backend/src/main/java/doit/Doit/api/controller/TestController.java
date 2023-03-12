@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequiredArgsConstructor
 public class TestController {
 
-    @GetMapping("/")
+    @GetMapping("/api/test")
     public String getTest(){
         return "cdcd test";
     }
