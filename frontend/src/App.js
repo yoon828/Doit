@@ -6,12 +6,12 @@ import axios from 'axios';
 function App() {
   const [title, setTitle] = useState("");
   useEffect(() => {
-    axios.get("http://3.34.61.31:8080/api").then((res)=>{
-      console.log(res);
-    setTitle(res.data);
-    })
-  
-  }, [])
+    (async () => {
+      const {data} = await axios.get("http://3.34.61.31/api");
+      console.log(data);
+      setTitle(data);
+    })();
+  }, []);
   
   return (
     <div className="App">
@@ -27,11 +27,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <h2>Test!!!!!!!
-          </h2>
-          <h6>{title}</h6>
-          
         </a>
+          <h2>Test!!!!!!!</h2>
+          <h5>backend test : {title}</h5>
       </header>
     </div>
   );
