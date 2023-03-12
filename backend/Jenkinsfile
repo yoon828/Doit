@@ -44,6 +44,7 @@ pipeline {
         echo "deploy start"
         // docker-compose.yml
         sh 'cd /'
+        echo pwd
         // docker-compose
         sh 'docker-compose up -d'
       }
