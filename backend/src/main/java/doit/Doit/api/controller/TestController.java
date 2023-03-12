@@ -1,18 +1,15 @@
 package doit.Doit.api.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 @RequiredArgsConstructor
 public class TestController {
 
-    @GetMapping("/api/test")
+    @GetMapping("/api")
     public String getTest(){
-        return "cdcd test";
+        return "test";
     }
-
-
 }
