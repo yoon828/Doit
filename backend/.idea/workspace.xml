@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/api/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/api/controller/TestController.java" afterDir="false" />
     </list>
@@ -137,7 +138,7 @@
       <workItem from="1677854619040" duration="2510000" />
       <workItem from="1678013682191" duration="10973000" />
       <workItem from="1678175712830" duration="964000" />
-      <workItem from="1678177246417" duration="9871000" />
+      <workItem from="1678177246417" duration="13060000" />
     </task>
     <task id="LOCAL-00001" summary="AWS DB connect">
       <created>1678017370461</created>
@@ -286,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678602488447</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="backend test">
+      <created>1678602785921</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678602785921</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
