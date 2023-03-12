@@ -7,7 +7,7 @@ function App() {
   const [title, setTitle] = useState("");
   useEffect(() => {
     (async () => {
-      const {data} = await axios.get("http://3.34.61.31/api");
+      const {data} = await axios.get("http://3.34.61.31:8080/api");
       console.log(data);
       setTitle(data);
     })();
