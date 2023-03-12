@@ -39,25 +39,25 @@ pipeline {
         }
       }
     }
-//     stage('Deploy') {
-//       steps {
-//         echo "deploy start"
-//         // docker-compose.yml
-//         sh 'cd /'
-//         // docker-compose
-//         sh 'docker-compose up -d'
-//       }
-//       post {
-//         always {
-//           echo "deploy stage complete"
-//         }
-//         failure {
-//           echo "deploy failed"
-//         }
-//         success {
-//           echo "deploy success"
-//         }
-//       }
-//     }
+    stage('Deploy') {
+      steps {
+        echo "deploy start"
+        // docker-compose.yml
+        sh 'cd /'
+        // docker-compose
+        sh 'docker-compose up -d'
+      }
+      post {
+        always {
+          echo "deploy stage complete"
+        }
+        failure {
+          echo "deploy failed"
+        }
+        success {
+          echo "deploy success"
+        }
+      }
+    }
   }
 }
