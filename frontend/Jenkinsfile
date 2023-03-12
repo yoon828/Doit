@@ -6,11 +6,11 @@ pipeline {
         checkout scm
       } 
       post {
-        success {
-          echo " prepare stage success"
-        } failure {
-          echo "prepare stage failed"
-        }
+          success {
+            echo " prepare stage success"
+          } failure {
+            echo "prepare stage failed"
+          }
       } 
     }
     stage('Frontend') {
@@ -24,14 +24,14 @@ pipeline {
         } 
       }
       post {
-        always {
-          echo "frontend stage complete"
-        }
-        failure {
-          echo "failed"
-        } success {
-          echo "success"
-        }
+          always {
+            echo "frontend stage complete"
+          }
+          failure {
+            echo "failed"
+          } success {
+            echo "success"
+          }
       } 
     }
   } 
