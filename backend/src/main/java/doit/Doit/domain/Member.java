@@ -7,15 +7,16 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Getter
-public class Goal {
+public class Member {
     @Id @GeneratedValue
-    @Column(name = "goal_id")
+    @Column(name = "member_id")
     private Long id;
-    private String emoji;
-    private String title;
-    private String color;
+    private String nickname;
+    private LocalDateTime join_date;
+    private List<Goal> goals;
 
 }

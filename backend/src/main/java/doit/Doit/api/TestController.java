@@ -1,4 +1,4 @@
-package doit.Doit.api.controller;
+package doit.Doit.api;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;

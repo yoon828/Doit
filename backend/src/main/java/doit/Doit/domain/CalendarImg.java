@@ -1,17 +1,19 @@
 package doit.Doit.domain;
 
+import lombok.Getter;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Entity
-public class User {
+@Getter
+public class CalendarImg {
     @Id @GeneratedValue
+    @Column(name = "img_id")
     private Long id;
-    private String nickname;
-    private LocalDateTime join_date;
-    private List<Goal> goals;
-
+    private String img_url;
+    private LocalDateTime date;
 }

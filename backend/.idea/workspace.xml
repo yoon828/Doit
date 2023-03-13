@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24f2b172-8e20-4efb-87ba-cf925ae65250" name="Changes" comment="test">
+    <list default="true" id="24f2b172-8e20-4efb-87ba-cf925ae65250" name="Changes" comment="entity add">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/api/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/api/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/CalendarImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Goal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +116,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="doit.Doit.domain" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="DoitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -131,7 +142,7 @@
       <workItem from="1677854619040" duration="2510000" />
       <workItem from="1678013682191" duration="10973000" />
       <workItem from="1678175712830" duration="964000" />
-      <workItem from="1678177246417" duration="20736000" />
+      <workItem from="1678177246417" duration="24659000" />
     </task>
     <task id="LOCAL-00001" summary="AWS DB connect">
       <created>1678017370461</created>
@@ -343,7 +354,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678618320421</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Jenkins Test">
+      <created>1678619294660</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619294660</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Jenkins Test">
+      <created>1678619581723</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619581723</updated>
+    </task>
+    <task id="LOCAL-00033" summary="entity add">
+      <created>1678709930926</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1678709930926</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +406,8 @@
     <MESSAGE value="Jenkins edit" />
     <MESSAGE value="docker edit" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Jenkins Test" />
+    <MESSAGE value="entity add" />
+    <option name="LAST_COMMIT_MESSAGE" value="entity add" />
   </component>
 </project>
