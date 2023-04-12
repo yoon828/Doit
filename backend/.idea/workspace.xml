@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24f2b172-8e20-4efb-87ba-cf925ae65250" name="Changes" comment="entity add">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="24f2b172-8e20-4efb-87ba-cf925ae65250" name="Changes" comment="entity setting">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/api/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/api/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/CalendarImg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Goal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doit/Doit/domain/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,8 @@
       <workItem from="1677854619040" duration="2510000" />
       <workItem from="1678013682191" duration="10973000" />
       <workItem from="1678175712830" duration="964000" />
-      <workItem from="1678177246417" duration="24659000" />
+      <workItem from="1678177246417" duration="25278000" />
+      <workItem from="1680478661951" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="AWS DB connect">
       <created>1678017370461</created>
@@ -375,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678709930926</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="entity setting">
+      <created>1678712622076</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1678712622076</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +409,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Jenkins Test" />
     <MESSAGE value="entity add" />
-    <option name="LAST_COMMIT_MESSAGE" value="entity add" />
+    <MESSAGE value="entity setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="entity setting" />
   </component>
 </project>
